@@ -47,13 +47,13 @@ public class Principal {
         
         
           }else{ // se presenta con las cuatro variables sumadas
-            System.out.printf("Ingrese el sueldo del trabajador 1\n");
+            System.out.printf("Ingrese el sueldo del trabajador (semana)1\n");
             double s1 = scanner.nextDouble();
-            System.out.printf("Ingrese el sueldo del trabajador 2\n");
+            System.out.printf("Ingrese el sueldo del trabajador (semana)2\n");
             double s2 = scanner.nextDouble();
-            System.out.printf("Ingrese el sueldo del trabajador 3\n");
+            System.out.printf("Ingrese el sueldo del trabajador (semana)3\n");
             double s3 = scanner.nextDouble();
-            System.out.printf("Ingrese el sueldo del trabajador 4\n");
+            System.out.printf("Ingrese el sueldo del trabajador (semana)4\n");
             double s4 = scanner.nextDouble();
             t.agregar_sueldo_semanal(s1,s2,s3,s4);
         }
